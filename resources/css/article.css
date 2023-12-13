@@ -1,0 +1,33 @@
+h1{
+    height: 200px;
+}
+
+
+.btn-logout{
+    border: none;
+    background-color:transparent;
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: start;
+}
+.btn-logout:hover{
+    border: none;
+    background-color:white;
+    color: rgb(0, 0, 0);
+    
+}
+
+.centrato{
+
+    display: flex;
+    align-items: center;
+   margin: auto;
+   overflow-y: auto;
+   width: 40rem;
+}
+@media screen and (max-width: 400px) {
+    .centrato{
+        width: 22rem !important;
+    }
+}

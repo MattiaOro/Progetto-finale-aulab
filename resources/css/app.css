@@ -1,0 +1,38 @@
+@import 'bootstrap';
+@import 'navbar.css';
+@import 'cards.css';
+@import 'article.css';
+@import 'byUser.css';
+@import 'articleshow.css';
+@import 'addArticle.css';
+@import 'index.css';
+@import 'careers.css';
+:root {
+
+    --main:#A9B4C2;
+    --sec:#1D201F;
+    --acc:#F78154;
+};
+
+.nav-link{
+
+    background-color: #F78154;
+    
+}
+
+body{
+    background-image: url(/public/img/sfondo3.jpg);
+    background-attachment: fixed;
+    background-position: center -104px;
+    background-size:auto;
+}
+.titoletto{
+    font-family: 'Playfair Display', serif;
+    text-decoration:underline;
+    font-size: 26px;
+}
+.hr-title{
+    width: 100px;
+    color: black;
+    
+}

@@ -1,0 +1,81 @@
+.add-article{
+    
+    background-color: rgb(217, 133, 133);
+    border: 0;
+    border-radius: 20px;
+    width: 400px;
+  
+   
+}
+
+.add-article-h1{
+
+    margin-bottom: 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-label{
+    color: black;
+    align-items: center;
+    display: flex;
+}
+
+
+.form-control{
+    
+    width: 375px;
+    background-color:#F1BD8C;
+
+}
+
+.centratino{
+
+    justify-content: center;
+    
+
+}
+
+.btn-articolo{
+     
+
+    color: white;
+    background-color: black;
+    height: 40px;
+
+}
+
+.drop-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #555;
+    color: #444;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+  }
+  
+  .drop-container:hover {
+    background: #eee;
+    border-color: #111;
+  }
+  
+  .drop-container:hover .drop-title {
+    color: #222;
+  }
+  
+  .drop-title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+  }

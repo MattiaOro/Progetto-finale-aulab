@@ -1,0 +1,109 @@
+
+
+
+a{
+    font-size: 20px;
+    color: inherit;
+   
+}
+
+nav{
+
+    align-items:center;
+    display: flex;
+    
+    height: 80px;
+    
+    background:linear-gradient(to bottom,rgb(128, 116, 116),transparent) ;
+}
+
+
+
+.profile{
+    margin: 0;
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.dropdown-menu{
+    background-color: black;
+    animation: compare 0.7s linear forwards;
+
+}
+@keyframes compare{
+
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.dropdown-item{
+    color: white;
+    
+}
+
+
+.bi-house-door-fill{
+    color:#FAF7F2;
+}
+
+.bi-file-plus-fill{
+    color: #FAF7F2;
+}
+
+.bi-person-square{
+    color: #FAF7F2;
+}
+.bi-search-heart-fill{
+    color: #FAF7F2;
+    font-size: 25px;
+
+}
+
+.bi-house-door-fill:hover{
+    color:#F1BD8C;
+    transition: 0.5s;
+}
+
+.bi-file-plus-fill:hover{
+    color: #F1BD8C;
+    transition: 0.5s;
+}
+
+.bi-person-square:hover{
+    color: #F1BD8C;
+    transition: 0.5s;
+}
+
+.btn-article{
+    background-color: transparent;
+    border: none;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.bi-file-plus-fill{
+    font-size: 26px;
+    
+}
+
+.link{
+    font-size: 34px;
+    padding-left: 10px;
+}
+.link-profilo{
+    font-size: 36px;
+}
+
+.link-articolo{
+    
+    font-size: 34px;
+}
+
+.form-control{
+
+background: none;
+border:solid 1px;
+
+}
+

@@ -1,0 +1,75 @@
+h2{
+
+    color: black;
+
+}
+
+p{
+
+    color: black;
+}
+
+.box{
+
+    background-color: rgb(217, 133, 133);
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    
+
+}
+
+.giu{
+
+    height: 200px;
+
+ }
+.box2{
+    margin: auto;
+    background-color: rgb(217, 133, 133);
+    width: 4px;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.box3{
+    background-color: rgb(217, 133, 133);
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    height: 230px;
+    margin-top: 50px;
+}
+
+
+.box4{
+    margin: auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(217, 133, 133);
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    height: 422px;
+    margin-top: 50px;
+}
+.form-control{
+    width: 98%;
+}
+
+.form-label{
+
+    padding-top: 3px;
+
+}
+
+.bottone{
+
+    color: black;
+    background-color: #F1BD8C;
+    border:solid black 1px;
+    border-radius: 10px;
+
+}
